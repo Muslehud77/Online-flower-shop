@@ -2,7 +2,6 @@
 body {
     font-family: 'Belanosima', sans-serif;
     margin: 0;
-
 }
 
 .button-primary {
@@ -25,7 +24,7 @@ img {
 }
 
 .title-primary {
-    font-size: 30px;
+    font-size: 150%;
 }
 
 .title-description {
@@ -35,26 +34,26 @@ img {
 /* banner section style */
 .banner {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 15% 0% 15%;
     background-color: #f3b29d48;
-    justify-content: space-around;   
-    padding: 80px 200px 0 290px;
-    gap: 50px;
 }
 
 .intro {
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .intro-img {
-    width: 350px;
+    width: 50%;
 }
 
 .intro-description {
-    width: 500px;
+    width: 90%;
 }
 
 .intro-title {
-    font-size: 35px;
+    font-size: 250%;
     font-weight: 600;
 }
 
@@ -69,48 +68,48 @@ img {
 .featured-contents {
     display: flex;
     justify-content: space-evenly;
-    gap: 0px;
-    /* align-items: center; */
-    width: 1000px;
-    margin: 20px 132px 45px 260px;
-    text-align: center;
+    margin: 0% 15% 0% 15%;
+    text-align:center;
 }
 
 .featured-links {
     color: black;
+    
 }
 
-.contents>img {
+
+.contents01 {
     border-radius: 300px 300px 0px 0px;
-    padding: 50px 50px 0px 50px;
-}
-
-.contents {}
-
-.featured-img01 {
     background-color: #E3EBDB;
     width: 180px;
     height: 250px;
+    padding: 50px 50px 0px 50px;
 }
-
-.featured-img02 {
+.contents02 {
+    border-radius: 300px 300px 0px 0px;
     background-color: #D9EFF0;
     width: 180px;
     height: 250px;
+    padding: 50px 50px 0px 50px;
 }
 
-.featured-img03 {
+.contents03 {
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 50px 0px 50px;
     background-color: #F1DDE7;
     width: 180px;
     height: 250px;
+}
+.featured-img02{
+    padding-bottom: 70px;
 }
 
 /* service section style  */
 .service-section {
     display: flex;
+    margin: 5% 15% 5% 15%;
     justify-content: space-evenly;
     background-color: #F4F4F4;
-    margin: 100px 200px;
     padding: 50px 70px 10px 70px;
     height: 120px;
 }
@@ -128,25 +127,23 @@ img {
 /* gift section style  */
 .gift-section {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 200px 20px 215px;
-    gap: 180px;
-    background-color: #FCEEF1;
-    height: 450px;
+    padding: 2% 15%;   
+    background-color: #FCEEF1;   
 }
 
 .gift-img {
-    width: 300px;
+    width: 30%;
 }
 
 /* hot deal section style  */
 .hot-deal {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 200px 20px 215px;
-    gap: 180px;
+    padding: 2% 15%;
     background-color: #D9EFF0;
-    height: 450px;
 }
 
 .colored {
@@ -154,14 +151,19 @@ img {
 }
 
 /* instagram section style  */
-.flowers {
-    display: flex;
-    max-width: 250px;
-    gap: 10px;
-    margin-left: 220px;
-    margin-right: 200px;
-}
+.flower{
+    text-align: center;
 
+}
+.flower-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0% 15%;
+   }
+.flower-images{
+    width: 22%;
+}
 .instagram {
     text-align: center;
     margin-top: 80px;
@@ -173,9 +175,7 @@ img {
     background-image: url("../assets/Rectangle 9.png");
     background-size: cover;
     padding: 50px 200px;
-    margin-left: 215px;
-    margin-right: 265px;
-    margin-top: 80px;
+    margin: 5% 15%;
     border-radius: 8px;
 }
 
