@@ -69,11 +69,12 @@ img {
 
 .featured-contents {
     display: flex;
-    gap: 20px;
-    align-items: center;
-    padding: 80px 200px 0 200px;
+    justify-content: space-evenly;
+    gap: 0px;
+    /* align-items: center; */
+    width: 1000px;
+    margin: 20px 132px 45px 260px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .featured-links {
@@ -129,8 +130,8 @@ img {
 .gift-section {
     display: flex;
     align-items: center;
-    padding: 20px 200px;
-    gap: 150px;
+    padding: 20px 200px 20px 215px;
+    gap: 180px;
     background-color: #FCEEF1;
     height: 450px;
 }
@@ -143,8 +144,8 @@ img {
 .hot-deal {
     display: flex;
     align-items: center;
-    padding: 20px 200px;
-    gap: 150px;
+    padding: 20px 200px 20px 215px;
+    gap: 180px;
     background-color: #D9EFF0;
     height: 450px;
 }
@@ -156,9 +157,10 @@ img {
 /* instagram section style  */
 .flowers {
     display: flex;
-    max-width: 220px;
+    max-width: 250px;
     gap: 10px;
-    padding: 20px 200px;
+    margin-left: 220px;
+    margin-right: 200px;
 }
 
 .instagram {
@@ -172,8 +174,8 @@ img {
     background-image: url("../assets/Rectangle 9.png");
     background-size: cover;
     padding: 50px 200px;
-    margin-left: 200px;
-    margin-right: 155px;
+    margin-left: 215px;
+    margin-right: 265px;
     margin-top: 80px;
     border-radius: 8px;
 }
