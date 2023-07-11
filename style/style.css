@@ -36,9 +36,8 @@ img {
 .banner {
     display: flex;
     background-color: #f3b29d48;
-    justify-content: space-around;
-    background-size: ;
-    padding: 80px 200px 0 200px;
+    justify-content: space-around;   
+    padding: 80px 200px 0 290px;
     gap: 50px;
 }
 
